@@ -6,7 +6,7 @@
       {{ account.substr(0, 6) + '...' + account.substr(39, 3) }}
     </button>
     <button size="mini" @click="showWallet" v-show="!isConnected" class="button-connect">
-      Connect Aurora
+      Connect Rinkeby
     </button>
     <div v-show="isShowConnectStatus" class="connect-panel " @click="isShowConnectStatus=false">
       <div class="mask"></div>
