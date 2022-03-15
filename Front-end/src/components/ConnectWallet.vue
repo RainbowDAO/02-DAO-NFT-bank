@@ -66,26 +66,9 @@ export default {
 
 
       window.ethereum.request({
-        method: 'wallet_addEthereumChain',
-        params: [{
-          chainId: "0x4E454153",
-          chainName: "aurora",
-          rpcUrls: [
-            "https://testnet.aurora.dev",
-          ],
-          iconUrls: [
-            ""
-          ],
-          blockExplorerUrls: [
-            "https://explorer.testnet.aurora.dev/"
-          ],
-          nativeCurrency: {
-            name: "ETH",
-            symbol: "ETH",
-            decimals: 18
-          }
-        }]
-      })
+        method: 'wallet_switchEthereumChain',
+        params: [{ chainId: '0x4' }],
+      });
       if (idx == 1) {
         if (typeof window.ethereum == 'undefined') {
           this.$message.error("down metamask")
@@ -136,7 +119,10 @@ export default {
 .connectWallet {
   color: #2c3e50;
   display: flex;
-
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  right: 60px;
   .button-connect {
     padding: 0 20px;
     cursor: pointer;
@@ -295,6 +281,7 @@ export default {
     display: inline-block;
     cursor: pointer;
     color: #666666;
+    font-family: Arial;
     font-size: 15px;
     font-weight: bold;
     padding: 6px 24px;
