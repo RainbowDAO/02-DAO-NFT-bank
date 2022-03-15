@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"erc20Factory.sol": "SafeMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"erc20Factory.sol": {
+			"keccak256": "0x7fd557370224fc96dd47c5c1926b443b3783609c041e953822fffb580423b4f0",
+			"urls": [
+				"bzz-raw://e8cbac079e4bfbbad35c140f0598ff881eb5c46d1bb4a41222098a0e5908e745",
+				"dweb:/ipfs/QmNgZjEAQfHhBxTzUtoaQ5V1WSbQDEHHDZSQNcNjmBYbgD"
+			]
+		}
+	},
+	"version": 1
+}
