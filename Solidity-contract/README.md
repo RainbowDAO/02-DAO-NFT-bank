@@ -24,9 +24,9 @@ npm install npm@latest -g
 - Install npm and node using a package manager such as nvm. Sometimes there are issues using Ledger due to how macOS handles node packages related to USB devices.
 - Ensure you have installed Node version 12 or above.
 
-- Install Solidity-version-contract-for-Aurora dependencies:
+- Install Solidity-contract dependencies:
 ```bash
-cd Solidity-version-contract-for-Aurora
+cd Solidity-contract
 ```
 
 ```bash
