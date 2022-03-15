@@ -1,0 +1,255 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "DepositToken",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdrawa",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowTken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "bankName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "month",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "depositToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_deposits",
+						"type": "address"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bName",
+						"type": "string"
+					}
+				],
+				"name": "setBankName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token20",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawa",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"RainbowBank/RainbowBank.sol": "RainbowBank"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"RainbowBank/RainbowBank.sol": {
+			"keccak256": "0x26dde8ea62bb85f52db48db3a28cea063ef7450e6642957ae272209adee0590d",
+			"urls": [
+				"bzz-raw://2b0cfd32593dfc2734733dc7a2fc5027da74e81c101ea4c56bd40fadab4c8ba5",
+				"dweb:/ipfs/QmTaqgohVWwvkDSXMrgMc5xiszwmgSHMKgHDARkuxBANGr"
+			]
+		},
+		"erc20Factory.sol": {
+			"keccak256": "0x7fd557370224fc96dd47c5c1926b443b3783609c041e953822fffb580423b4f0",
+			"urls": [
+				"bzz-raw://e8cbac079e4bfbbad35c140f0598ff881eb5c46d1bb4a41222098a0e5908e745",
+				"dweb:/ipfs/QmNgZjEAQfHhBxTzUtoaQ5V1WSbQDEHHDZSQNcNjmBYbgD"
+			]
+		},
+		"interface/token721/IRbtDeposit721.sol": {
+			"keccak256": "0x28e99c1a0e3d4fd7d612696d979dac31dad7ed46a133b981ed27e8cbe0571312",
+			"urls": [
+				"bzz-raw://32644df022a3ac2ee51e2833be6218fc95f9db99857dce30cdac06ef8880fa3a",
+				"dweb:/ipfs/QmZgTuP6S9GayfTcM1xjaL463tFkUsh8xPe917X5BcrWvQ"
+			]
+		},
+		"lib/TransferHelper.sol": {
+			"keccak256": "0xfcba00870f53c64c98f56ff94eda494c5ee8f747dc9b477f7a916459f9570d06",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://41be80956af850e1740ea9fdcb1c4fa3da7d9437a9a0606f3cdd2f8ac831255c",
+				"dweb:/ipfs/Qma7h6FD9KCJCM5GhGsFJK9z2VXTeJD5qVhSk5rStE3CSt"
+			]
+		}
+	},
+	"version": 1
+}
