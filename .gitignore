@@ -15,3 +15,4 @@ yarn-error.log
 **/artifacts
 package-lock.json
 build
+**/dist
