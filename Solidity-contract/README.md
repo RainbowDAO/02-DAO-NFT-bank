@@ -36,7 +36,7 @@ npm install
 
 First of all you need to change the network:
 
-https://aurora.dev/start
+Rinkeby test network
 
 Then, Enter the webpage and select the Aurora Network test network and click Add network
 
