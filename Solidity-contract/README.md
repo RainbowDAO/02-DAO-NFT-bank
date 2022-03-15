@@ -1,4 +1,4 @@
-# 02-Near-MetaBUILD-DAO-NFT-bank
+# 02-ETHDenver2022-DAO-NFT-bank
 ## Contract introduction
 - ERC20FACTORY : Create a token for the bank you have to create, so that it can specify the type of pledge token to issue NFT.
 - RBBANKORCHESTRATOR :Create a new bank of your own, initialize the bank's token type, and choose the pledge period in the bank.
