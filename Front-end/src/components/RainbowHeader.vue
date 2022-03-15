@@ -67,7 +67,6 @@ export default {
 
   created() {
     let ethereum = window.ethereum
-    //切换账户
     ethereum.on('accountsChanged', () => {
       this.$store.dispatch('app/registerWeb3')
     });
