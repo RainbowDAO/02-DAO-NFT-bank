@@ -1,4 +1,3 @@
-# Submission for the ETHDenver 2022 Virtual BUIDLathon
 
 ## 1. Project name
 
@@ -14,25 +13,23 @@ RainbowCity Foundation
 
 ## 4. Submission links
 
-In this ETHDenver 2022 Virtual BUIDLathon event, RainbowCity Foundation submitted a total of 9 projects, which is the  address directory of the 9 projects as follows. We are continuing to update the details of each project.
-
 Submission address directory:
-http://www.rainbowdao.io/ETHDanver2022
+http://www.rainbowdao.io/project
 
 Project demo website:
-https://nftbankethdanver.rainbowdao.io/
+https://nftbank.rainbowdao.io/
 
 GitHub repository:
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank
+https://github.com/RainbowDAO/02-DAO-NFT-bank
 
 Solidity-Version-contract (GitHub):
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/tree/main/Solidity-contract
+https://github.com/RainbowDAO/02-DAO-NFT-bank/tree/main/Solidity-contract
 
 Frontend code (GitHub):
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/tree/main/Front-end
+https://github.com/RainbowDAO/02-DAO-NFT-bank/tree/main/Front-end
 
 Picture (GitHub):
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/tree/main/PIC
+https://github.com/RainbowDAO/02-DAO-NFT-bank/tree/main/PIC
 
 ## 5. Recorded video demo
 
@@ -64,10 +61,10 @@ RBTDEPOSIT721 :
 0x6C7Cc7973cf1A3D609aae6F98C6083bB0BBA3f88
 
 Frontend docs:
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/blob/main/Front-end/README.md
+https://github.com/RainbowDAO/02-DAO-NFT-bank/blob/main/Front-end/README.md
 
 Contract  docs:
-https://github.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/blob/main/Solidity-contract/README.md
+https://github.com/RainbowDAO/02-DAO-NFT-bank/blob/main/Solidity-contract/README.md
 
 ## 7.Project social media:
 
@@ -103,7 +100,7 @@ Meanwhile, in order to guarantee the liquidity of the deposited ERC20 governance
 
 ## 3. How we built it
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/Logic-diagram.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/Logic-diagram.png)
 
 ⑴  Create an ERC Token using the ERC20 factory and set basic information such as Token name, circulation, logo, decimals etc.
 
@@ -130,48 +127,48 @@ Meanwhile, in order to guarantee the liquidity of the deposited ERC20 governance
 ## 1-Create-NFT-Bank
 
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/1-NFT-Bank/1-Create-NFT-Bank.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/1-NFT-Bank/1-Create-NFT-Bank.png)
 
 ## 2-Create-NFT-Bank
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/1-NFT-Bank/2-Create-NFT-Bank.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/1-NFT-Bank/2-Create-NFT-Bank.png)
 
 ## 3-NFT-Bank-Home
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/1-NFT-Bank/3-NFT-Bank-Home.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/1-NFT-Bank/3-NFT-Bank-Home.png)
 
 
 ## 4-NFT-Bank-Stake
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/1-NFT-Bank/4-NFT-Bank-Stake.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/1-NFT-Bank/4-NFT-Bank-Stake.png)
 
 ## 5-My-Loan-Information
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/1-My-Loan-Information.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/1-My-Loan-Information.png)
 
 ## 6-My-Loan-Information-Order
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/2-My-Loan-Information-Order.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/2-My-Loan-Information-Order.png)
 
 ## 7-My-Loan-Information-Order
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/3-My-Loan-Information-Order.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/3-My-Loan-Information-Order.png)
 
 ## 8-Already-Lent-Out
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/4-Already-Lent-Out.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/4-Already-Lent-Out.png)
 
 ## 9-Borrowing-Market
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/5-Borrowing-Market.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/2-Mortgage-Loan-Market/5-Borrowing-Market.png)
 
 ## 10-Token-Assignment-Market-Buy
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/1-Token-Assignment-Market-Buy.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/1-Token-Assignment-Market-Buy.png)
 
 ## 11-Token-Assignment-Market-Buy
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/2-Token-Assignment-Market-Buy.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/2-Token-Assignment-Market-Buy.png)
 
 ## 12-Token-Assignment-Market-Sell
 
-![image](https://raw.githubusercontent.com/RainbowDAO/02-ETHDenver2022-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/3-Token-Assignment-Market-Sell.png)
+![image](https://raw.githubusercontent.com/RainbowDAO/02-DAO-NFT-bank/main/PIC/3-Token-Assignment-Market/3-Token-Assignment-Market-Sell.png)
