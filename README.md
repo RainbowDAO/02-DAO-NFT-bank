@@ -17,7 +17,7 @@ Submission address directory:
 http://www.rainbowdao.io/project
 
 Project demo website:
-https://nftbank.rainbowdao.io/
+https://daonftbank.rainbowdao.io/
 
 GitHub repository:
 https://github.com/RainbowDAO/02-DAO-NFT-bank
