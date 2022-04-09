@@ -33,7 +33,7 @@ https://github.com/RainbowDAO/02-DAO-NFT-bank/tree/main/PIC
 
 ## 5. Recorded video demo
 
-https://youtu.be/F28Fa2-ugR0
+https://youtu.be/bNNwdelrjx8
 
 ## 6. Testnet Deployment Information
 
