@@ -3,9 +3,10 @@ pragma solidity ^0.8.0;
 import "../interface/token721/IRbtDeposit721.sol";
 import "../lib/TransferHelper.sol";
 import "../erc20Factory.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract RainbowBank{
+contract RainbowBank is Ownable{
     IRbtDeposit721 deposit;
     //Recording the last bank balance There is a lack of a way to get bank balances here
     uint private reserve;
@@ -20,18 +21,9 @@ contract RainbowBank{
     
     event DepositToken(address to , uint indexed month ,uint indexed value);
     event Withdrawa(address indexed to,uint indexed tokenId);
-    constructor(address user) public{
-        manager = user;
+    constructor(){
     }
 
-    modifier onlyAdmin(){
-        
-        require(msg.sender == manager, "u are not manager");
-        
-        _;
-        
-    }
-    
     function init(address token , address _deposits)  external {
         token20 = token;
         deposit=IRbtDeposit721(_deposits);
