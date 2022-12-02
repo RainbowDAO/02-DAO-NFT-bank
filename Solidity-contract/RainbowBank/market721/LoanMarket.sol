@@ -23,15 +23,13 @@ contract LoanMarket is Ownable{
     LoanRecording[] public list;
     IRbtDeposit721 deposit;
     address to;
-    address public manager;
     address token;
     //Third-party mediation address
     address agent;
     event MortgageMarket(uint  tokenId,uint amount ,uint day ,uint dayRate);
     event Repayment(uint indexed id,uint indexed day,uint indexed value);
     event RepealMortgage(uint indexed id);
-    constructor(address user) public{
-        manager = user;
+    constructor(){
     }
 
     //initialize
