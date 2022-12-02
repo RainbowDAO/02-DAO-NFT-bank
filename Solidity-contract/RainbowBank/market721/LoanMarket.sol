@@ -2,8 +2,10 @@ pragma solidity ^0.8.0;
 
 import "../../interface/token721/IRbtDeposit721.sol";
 import "../RainbowBank.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract LoanMarket {
+
+contract LoanMarket is Ownable{
     struct LoanRecording{
         uint tokenId;
         uint id;
