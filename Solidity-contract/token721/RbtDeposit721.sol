@@ -85,7 +85,6 @@ abstract contract Ownable is Context {
         
         string public name = "RBD";
         string public symbol = "RBD";
-        address manger;
         struct Deposit{
             address owner;
             string name;
@@ -95,8 +94,7 @@ abstract contract Ownable is Context {
             uint amount;
     }
     
-    constructor(address user)  {
-        manger = user;
+    constructor()  {
 
     }
   
