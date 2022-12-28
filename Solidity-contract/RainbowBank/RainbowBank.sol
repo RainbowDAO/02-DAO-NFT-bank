@@ -17,7 +17,7 @@ contract RainbowBank is Ownable{
     event Withdrawa(address indexed to,uint indexed tokenId);
     constructor(){
     }
-    function init(address token , address _deposits)  external {
+    function init(address token , address _deposits)  public{
         token20 = token;
         deposit=IRbtDeposit721(_deposits);
     }
